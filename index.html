@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>Josh Faia Music</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./assets/joshfaiamusic_logo.jpg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/363890c876.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="scrollFunction()">
+        <nav>
+            <!--<h1 id="title">Josh Faia Music</h1>-->
+            <ul id="nav-links">
+                <li class="current"><a onclick="topFunction(), home_current()" style="cursor: pointer;" id="nav-home">Home</a></li>
+                <li class="not-current"><a href="#about" onclick="about_current()" id="nav-about">About</a></li>
+                <li class="not-current"><a href="#videos" onclick="videos_current()" id="nav-videos">Videos</a></li>
+                <li class="not-current"><a href="#music" onclick="music_current()" id="nav-music">Music</a></li>
+                <li class="not-current"><a href="#cube" onclick="cube_current()" id="nav-cube">Cube</a></li>               
+                <li class="not-current"><a href="#contact" onclick="contact_current()" id="nav-contact">Contact</a></li>
+            </ul>
+            <ul id="social-links">
+                <li><a href="https://www.facebook.com/JoshFaiaMusic" target="_blank"><i class="fab fa-facebook" style="font-size:30px;"></i></a></li>
+                <li><a href="https://www.instagram.com/joshfaiamusic/" target="_blank"><i class="fab fa-instagram" style="font-size:30px;"></i></a></li>
+            </ul>
+            <div id="nav-bg"></div>
+        </nav>
+
+        <br style="line-height: 55px;">
+
+        <main>
+            <center>
+                <!--position:absolute;top:0%;left:0%;-->
+                <section id="home" style="z-index:-1;width: 100%;">
+                    <img src="./assets/photos/1background.jpg" style="opacity:0.4;filter: blur(4px);" width="100%">
+                    <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;">
+                        <img src="./assets/joshfaiamusic_transparentbanner.png" id="banner-img">
+                        <!--<font style="font-size: 12vw;">Josh Faia Music</font>
+                        <br>
+                        <font style="font-size: 50px;">Contemporary Composition and Production</font>
+                        <br><br>
+                        <font style="font-size: 25px;">Trumpet</font>-->
+                    </div>
+                </section>
+                
+                <!--line-height:650px-->
+                <br style="line-height:50px;">
+
+                <section id="about" style="width: 100%;">
+                    <!--line-height: 145px;-->
+                    <br style="line-height: 50px;">
+                    <div style="position:relative;width: 100%;">
+                        <h4 style="width:60%;">
+                            <p>
+                                <h1 style="color: #ebdc9d;">
+                                    Composition, arrangement, recording, & production of original music in any style
+                                </h1>
+                                <h2>
+                                    Trumpet and Keyboards
+                                </h2>
+                                <h3>
+                                    Audio editing & video post-production
+                                    <br>
+                                    Live sound and production
+                                </h3>
+                                <h4>
+                                    Lansdale, Pennsylvania
+                                    <br>
+                                    Berklee College of Music
+                                </h4>
+                                
+                            </p>
+                        </h4>
+                        <br>
+                        <div style="font-size: 35px;" id="about-tl">
+                            <h1>About</h1>
+                        </div>
+                        <h4 style="width: 60%;">
+                            <p>
+                                Josh is a musician of many influences and interests. Starting on piano, then picking up the trumpet, 
+                                he is able to traverse and combine a wide array of styles. His compositions and arrangements are 
+                                heavily influenced by classic funk, rock, and jazz icons, as well as jam bands like Grateful Dead 
+                                and Phish. Despite these deeply rooted influences, Josh stays up to date with contemporary music and is 
+                                able to compose or arrange in any style for any application.
+                            </p>
+                        </h4>
+                    </div>
+                    <br>
+                </section>
+
+                <br style="line-height: 100px;">
+                <img src="./assets/photos/2joshtrumpet1_cropped.jpg" style="width:1500px;opacity:0.5;">
+                
+
+                <section id="videos">
+                    <br style="line-height: 150px;">
+                    <div style="font-size: 35px;" id="videos-tl">
+                        <h1>Videos</h1>
+                    </div>
+                    
+                    <table id="vid-table">
+                        <tr>
+                            <td>
+                                <video id="video1" class="video" src="./assets/videos_page/adventures_in_imagination.mov" controls></video>
+                            </td>
+                            <td>
+                                <video id="video2" class="video" src="./assets/videos_page/black_dress.mov" controls></video>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <video id="video3" class="video" src="./assets/videos_page/heineken_0.0.mov" controls></video>
+                            </td>
+                            <td>
+                                <video id="video4" class="video" src="./assets/videos_page/purina.mov" controls></video>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <video id="video5" class="video" src="./assets/videos_page/reebok_sublite.mov" controls></video>
+                            </td>
+                            <td>
+                                <video id="video6" class="video" src="./assets/videos_page/vw_teddy.mov" controls></video>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                </section>
+
+                <br style="line-height: 150px;">
+                <img src="./assets/photos/3joshheadshot_cropped.jpg" style="width:60%;opacity:0.5;">
+
+                <section id="music" style="width: 100%;position: relative;">
+                    <br style="line-height: 145px;">
+                        <div style="font-size: 35px;" id="music-tl">
+                            <h1>Music</h1>
+                        </div>
+                        <div id="music-info">
+                            <h1>Production Of Original Music In Any Genre</h1>
+                            <h4>A few examples of Josh's work</h4>
+                            <br>
+                            <ul id="tbl1">
+                                <li><h2>Orchestral Composition</h2></li>
+                                <li><h4>Original Orchestral Pieces</h4></li>
+                            </ul>
+                            <ul id="tbl2">
+                                <li>
+                                    <h3>Desire of Stone Finder</h3>
+                                    <audio id="audio1" src="./assets/music_page/desire_of_the_stone_finder.wav" class="player" controls></audio>
+                                </li>
+                                <li>
+                                    <h3>Sunrise After The Fight For The Stone</h3>
+                                    <audio id="audio2" src="./assets/music_page/sunrise_after_the_fight_for_the_stone.wav" class="player" controls></audio>
+                                </li>
+                            </ul>
+                            <ul id="tbl3">
+                                <li><h2>Acoustic Pop</h2></li>
+                                <li><h4>'Be' - Written by Josh Faia</h4></li>
+                                <li><h4>'Another Minute or Two' - Written by Giosaia S. Perillo</h4></li>
+                            </ul>
+                            <ul id="tbl4">
+                                <li>
+                                    <h3>Be</h3>
+                                    <audio id="audio3" src="./assets/music_page/be.wav" class="player" controls></audio>
+                                </li>
+                                <li>
+                                    <h3>Another Minute or Two</h3>
+                                    <audio id="audio4" src="./assets/music_page/another_minute_or_two.wav" class="player" controls></audio>
+                                </li>
+                            </ul>
+                            <ul id="tbl5">
+                                <li><h2>Drum and Bass</h2></li>
+                                <li><h4>'Couch Surfer' - Written by Josh Faia</h4></li>
+                            </ul>
+                            <ul id="tbl6">
+                                <li>
+                                    <h3>Couch Surfer</h3>
+                                    <audio id="audio5" src="./assets/music_page/couch_surfer.wav" class="player" controls></audio>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <br style="line-height: 250px;">
+                <img src="./assets/photos/4joshtrumpet2_cropped.jpg" style="width:100%;opacity:0.5;">
+
+                <section id="cube">
+                    <br style="line-height: 100px;">
+                    <div style="font-size: 35px;">
+                        <h1 id="cube-tl">Cube</h1>
+                        <font style="font-size: 20px;">Spearheaded by Josh, Cube is a modern jam band collective that features<br>
+                            original music influenced by Psychedelic Rock, Funk, and Disco.
+                        </font>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="cube-info">
+                        <br>
+                        <div class="release">
+                            <img src="./assets/cube_page/clarity_cover.jpg" class="song-cvr">
+                            <div class="release-box">
+                                <h1 class="song-ttl">Clarity <font class="song-id">(single)</font></h1>
+                                <br>
+                                <ul class="song-links">
+                                    <li><a href="https://open.spotify.com/album/15ErwP9qImLCATvgKQNwfb?si=oOTKma9VSEiVlOJ9WODVWw" target="blank"><i class="fab fa-spotify"></i></a></li>
+                                    <li><a href="https://music.apple.com/us/album/clarity-single/1526615268" target="blank"><i class="fab fa-itunes"></i></a></li>
+                                    <li><a href="https://youtu.be/Sjy2zxaIT7w" target="blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="https://www.amazon.com/gp/product/B08FC1YD8B" target="blank"><i class="fab fa-amazon"></i></a></li>
+                                    <li><a href="https://deezer.page.link/nJAhF9G1L2HwvSoU8" target="blank"><i class="fab fa-deezer"></i></a></li>
+                                    <li><a href="https://us.napster.com/artist/cube/album/clarity-503078648" target="blank"><i class="fab fa-napster"></i></a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <br style="line-height: 150px;">
+                <img src="./assets/photos/5speakers_cropped.jpg" 
+                style="width:100%;opacity:0.5;-webkit-filter:grayscale(100%);filter:grayscale(100%);">
+
+                <section id="contact">
+                    <br style="line-height: 100px;">
+                    <div style="font-size: 35px;" id="contact-tl">
+                        <h1>Contact</h1>
+                    </div>
+                    <form method="post" action="./php/contact.php">
+                        <input type="text" id="name" placeholder="NAME:" required> <br>
+                        <br>
+                        <input type="email" id="email" placeholder="EMAIL:" required> <br>
+                        <br>
+                        <textarea name="message" id="message" placeholder="MESSAGE:" required></textarea> <br>
+                        <br>
+                        <button id="send">SEND</button>
+                    </form>
+                </section>
+
+                <br style="line-height: 100px;">
+            </center>
+
+            <div id="top-bt"></div>
+        </main>
+
+        <footer>
+            <h3>&copy; Josh Faia Music</h3>
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>

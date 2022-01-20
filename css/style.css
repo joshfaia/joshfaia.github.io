@@ -1,0 +1,303 @@
+/* fonts ==> font-family: 'Pacifico', cursive; font-family: 'Quicksand', sans-serif; */
+
+:root {
+    --titleText: #ebdc9d;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #222222;
+    color: white;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+input {
+    font-family: 'Quicksand', sans-serif;
+}
+footer {
+    background: #1b1b1b;
+    text-align: center;
+    height: 25px;
+}
+video, button, audio {
+    outline: none;
+}
+
+
+
+#title {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -93%);
+    z-index: 11;
+}
+#nav-links {
+    min-width: 700px;
+    font-size: 20px;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    width: 300px;
+    z-index: 11;
+    /*min-width: 700px;
+    font-size: 20px;
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -87%);
+    z-index: 11;*/
+}
+#nav-links li {
+    display: inline;
+    padding: 20px;
+}
+#nav-bg {
+    background: #222222;
+    width: 100%;
+    /*height: 150px;*/
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.current {
+    font-size: 25px;
+    font-weight: bold;
+}
+.not-current {
+    font-size: 20px;
+    font-weight: 100;
+}
+#social-links {
+    position: fixed;
+    top: 5%;
+    left: 85%;
+    transform: translate(-15%, -95%);
+    width: 300px;
+    z-index: 11;
+}
+#social-links li {
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+#banner-img {
+    width: 55%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#about {
+    width: 900px;
+}
+#about-tl {
+    color: var(--titleText);
+}
+#videos li {
+    list-style-type: none;
+}
+.video {
+    width: 600px;
+}
+#music-info {
+    min-width: 900px;
+    min-height: 700px;
+    position: relative;
+}
+#tbl1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    text-align: left;
+    display:block;
+    list-style-type: none;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+#tbl2 {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    text-align: left;
+    display:block;
+    list-style-type: none;
+}
+#tbl3 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    text-align: left;
+    display:block;
+    list-style-type: none;
+}
+#tbl4 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    text-align: left;
+    display:block;
+    list-style-type: none;
+}
+#tbl5 {
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    text-align: left;
+    display:block;
+    list-style-type: none;
+}
+#tbl6 {
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    text-align: left;
+    display:block;
+    list-style-type: none;
+}
+.player {
+    color: white;
+    width: 500px;
+    outline: none;
+}
+
+
+
+#top-bt {
+    color: var(--titleText);
+    font-size: 40px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 2%;
+    right: 1%;
+    transform: translate(-99%, -98%);
+}
+
+
+
+#videos-tl {
+    color: var(--titleText);
+}
+#vid-table {
+    width: 85%;
+}
+#vid-table td {
+    width: 35%;
+    padding: 10px;
+}
+.video {
+    max-width: 100%;
+}
+
+
+
+#music-tl {
+    color: var(--titleText);
+}
+.release {
+    width: 55%;
+    height: 250px;
+    position: relative;
+}
+.release-box {
+    width: 60%;
+    height: 250px;
+    position: relative;
+    right: -30%;
+}
+.song-cvr {
+    height: 100%;
+    position: absolute;
+    left: 0%;    
+}
+.song-ttl {
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translate(0, -70%);
+    align-items: left;
+}
+.song-id {
+    font-size: 30px;
+}
+.song-links {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: -20%;
+    transform: translate(0%, -45%);
+}
+.song-links li {
+    display: inline;
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+
+
+#cube-tl {
+    color: var(--titleText);
+}
+
+
+
+#contact-tl {
+    color: var(--titleText);
+}
+#name {
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    color: #222222;
+}
+#email {
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    color: #222222;
+}
+#message {
+    width: 50%;
+    height: 150px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+    resize: none;
+    border: none;
+    color: #222222;
+}
+#send {
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222222;
+    cursor: pointer;
+}
+#send:hover {
+    background: #222222;
+    color: white;
+    border: 2px solid white;
+}

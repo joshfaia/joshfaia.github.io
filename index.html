@@ -226,13 +226,15 @@
                     <div style="font-size: 35px;" id="contact-tl">
                         <h1>Contact</h1>
                     </div>
-                    <form method="post" action= "contact.php">
+                    <form method="post" action= "post" data-netlify="true">
                         <input type="text" id="name" placeholder="NAME:" required> <br>
                         <br>
                         <input type="email" id="email" placeholder="EMAIL:" required> <br>
                         <br>
                         <textarea name="message" id="message" placeholder="MESSAGE:" required></textarea> <br>
                         <br>
+                        <input type="file" name="myfile"
+                               id="myfile" placeholder="Upload File"
                         <button id="send">SEND</button>
                     </form>
                 </section>

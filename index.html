@@ -226,7 +226,7 @@
                     <div style="font-size: 35px;" id="contact-tl">
                         <h1>Contact</h1>
                     </div>
-                    <form action= "post" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true">
                         <input type="text" id="name" placeholder="NAME:" required> <br>
                         <br>
                         <input type="email" id="email" placeholder="EMAIL:" required> <br>
@@ -235,8 +235,9 @@
                         <br>
                         <input type="file" name="myfile"
                                id="myfile" placeholder="Upload File"
-                        <br>      
+                        <p>      
                         <button id="send">SEND</button>
+                        </p>
                     </form>
                 </section>
 

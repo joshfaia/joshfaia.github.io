@@ -11,8 +11,8 @@
 
     $to = 'joshfaia@gmail.com';
 
-    mail($to, $email_subject, $email_body); or die("Error!"):
+    mail($to, $email_subject, $email_body); or die("Error!");
 
-echo "message sent":
+echo "message sent";
 
 ?>
